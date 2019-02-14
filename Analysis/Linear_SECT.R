@@ -249,7 +249,7 @@ for(j in 1:ncol(Y)){
   ### Create a matrix to save results ###
   Final = matrix(unlist(Results),nrow = ndatasets,ncol = 8,byrow = TRUE)
   mod.names = c("Expression","Morph","Geo","ECs")
-  colnames(Final) = c(paste("RMSEP",mod.names,sep="_"),paste("R2",mod.names,sep="_"))
+  colnames(Final) = c(paste("MAE",mod.names,sep="_"),paste("R2",mod.names,sep="_"))
   
   ### Save the Results ###
   Res[[j]] = Final; cat("Completed Phenotype",j,"\n")
