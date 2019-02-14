@@ -13,21 +13,21 @@ R is a widely used, free, and open source software environment for statistical c
 ### R Packages Required for SECT and the GP Regression
 The statistical implementation of the SECT topological summaries using functional RKHS regression models requires the installation of the following R libraries:
 
-[BGLR](https://cran.r-project.org/web/packages/BGLR/index.html)
+* [BGLR](https://cran.r-project.org/web/packages/BGLR/index.html)
 
-[doParallel](https://cran.r-project.org/web/packages/doParallel/index.html)
+* [doParallel](https://cran.r-project.org/web/packages/doParallel/index.html)
 
-[gdata](https://cran.r-project.org/web/packages/gdata/index.html)
+* [gdata](https://cran.r-project.org/web/packages/gdata/index.html)
 
-[Rcpp](https://cran.r-project.org/web/packages/Rcpp/index.html)
+* [Rcpp](https://cran.r-project.org/web/packages/Rcpp/index.html)
 
-[RcppArmadillo](https://cran.r-project.org/web/packages/RcppArmadillo/index.html)
+* [RcppArmadillo](https://cran.r-project.org/web/packages/RcppArmadillo/index.html)
 
-[RcppParallel](https://cran.r-project.org/web/packages/RcppParallel/index.html)
+* [RcppParallel](https://cran.r-project.org/web/packages/RcppParallel/index.html)
 
-[BAKR](https://github.com/lorinanthony/BAKR)
+* [BAKR](https://github.com/lorinanthony/BAKR)
 
-[R.matlab](https://cran.r-project.org/web/packages/R.matlab/index.html) (If using the MATLAB version of SECT)
+* [R.matlab](https://cran.r-project.org/web/packages/R.matlab/index.html) (If using the MATLAB version of SECT)
 
 The easiest method to install these packages is with the following example command entered in an R shell:
 
