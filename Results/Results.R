@@ -72,9 +72,6 @@ round(cbind(colMeans(OS),apply(OS,2,sd)/sqrt(n.splits)),3)
 ######################################################################################
 ######################################################################################
 
-### Set the Working Directory for Figures ###
-setwd("~/Dropbox/Columbia Radiogenomics/Analysis/Figures")
-
 ### Look at the Squared Correlation Coefficient ###
 dfs.cor = c(colMeans(A[[2]][,5:8]),colMeans(B[[2]][,5:8]),colMeans(C[[2]][,5:8]))
 os.cor = c(colMeans(A[[1]][,5:8]),colMeans(B[[1]][,5:8]),colMeans(C[[1]][,5:8]))

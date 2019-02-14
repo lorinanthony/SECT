@@ -13,7 +13,7 @@ library(RcppArmadillo)
 library(RcppParallel)
 
 ### Load in the C++ BAKR Kernel functions ###
-sourceCpp("~/Dropbox/Columbia Radiogenomics/Software/BAKRGibbs.cpp")
+sourceCpp("~/Dropbox/Columbia Radiogenomics/Software/Kernel_Functions.cpp")
 
 ######################################################################################
 ######################################################################################
