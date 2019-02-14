@@ -13,14 +13,14 @@ library(RcppArmadillo)
 library(RcppParallel)
 
 ### Load in the C++ BAKR Kernel functions ###
-sourceCpp("~/Dropbox (Personal)/Columbia Radiogenomics/Software/BAKRGibbs.cpp")
+sourceCpp("~/Dropbox/Columbia Radiogenomics/Software/BAKRGibbs.cpp")
 
 ######################################################################################
 ######################################################################################
 ######################################################################################
 
 ### Load in the List that holds the Euler Characteristic (EC) Curves for the TCIA Samples ###
-load('~/Dropbox (Personal)/Columbia Radiogenomics/Data/MRI_ECs.RData')
+load("~/Dropbox/Columbia Radiogenomics/Data/MRI_ECs.RData")
 nrot = ncol(MRI_list[[1]]$EC); stepsize = nrow(MRI_list[[1]]$EC)
 ECs = matrix(nrow = length(MRI_list),ncol = nrot*stepsize)
 rownames(ECs) = 1:nrow(ECs)
@@ -40,7 +40,7 @@ ECs = ECs[,-seq(101,ncol(ECs),by=101)]
 ######################################################################################
 
 ### Load in the TCGA Gene Expression Data ###
-load('~/Dropbox (Personal)/Columbia Radiogenomics/Data/TCGA_GBM_Expression.RData')
+load("~/Dropbox/Columbia Radiogenomics/Data/TCGA_GBM_Expression.RData")
 G = t(X_TCGA[,which(colnames(X_TCGA)%in%rownames(ECs))])
 
 ### Find Overlapping Samples: ECs and Gene Expression ### 
@@ -52,7 +52,7 @@ G = G[match(rownames(ECs),rownames(G)),]
 ######################################################################################
 
 ### Load in the Morphometric Data For the TCIA MRIs ###
-Morph = read.table("~/Dropbox (Personal)/Columbia Radiogenomics/Data/TCIA_Morphometrics.txt",header = TRUE)
+Morph = read.table("~/Dropbox/Columbia Radiogenomics/Data/TCIA_Morphometrics.txt",header = TRUE)
 rownames(Morph) = paste(Morph$Feature,Morph$Statistics,sep = "_")
 colnames(Morph) = gsub("[.]", "-", as.character(colnames(Morph)))
 Morph = t(Morph[,-c(1:2)])
@@ -69,7 +69,7 @@ G = G[which(rownames(G)%in%rownames(Morph)),]
 ######################################################################################
 
 ### Load in the Geometric Data For the TCIA MRIs ###
-Geo = read.xls("~/Dropbox (Personal)/Columbia Radiogenomics/Data/TCIA_Geometrics.xls")
+Geo = read.xls("~/Dropbox/Columbia Radiogenomics/Data/TCIA_Geometrics.xls")
 rownames(Geo) = Geo$Patient.ID; Geo = as.matrix(Geo[,-c(1,6:11)])
 Geo = Geo[which(rownames(Geo)%in%rownames(ECs)),]
 
@@ -91,7 +91,7 @@ dim(ECs); dim(G); dim(Geo); dim(Morph);
 ######################################################################################
 
 ### Read in the Phenotypes ###
-Phenos = read.csv("~/Dropbox (Personal)/Columbia Radiogenomics/Data/TCGA_Clinical_Traits.csv")
+Phenos = read.csv("~/Dropbox/Columbia Radiogenomics/Data/TCGA_Clinical_Traits.csv")
 Y = Phenos; rownames(Y) = as.character(Y$Patient.ID); Y = Y[,-1]
 
 ### Find Overlapping Samples: ECs and Clinical Traits (DFS and OS) ### 
@@ -125,7 +125,7 @@ thin = 10
 sigma=1
 
 ### Load in the Cross-Validated Bandwidths ###
-load("~/Dropbox (Personal)/Columbia Radiogenomics/Analysis/Cross_Validation_Results/CauchyCV_Results.RData"); 
+load("~/Dropbox/Columbia Radiogenomics/Analysis/Cross_Validation_Results/CauchyCV_Results.RData");
 
 ### Call the Spectrum of Considered Bandwidths ###
 theta = seq(from = 0.1, to = 10, by = 0.1)
@@ -270,4 +270,4 @@ colMeans(Res[[1]][,1:4]); colMeans(Res[[1]][,5:8])
 colMeans(Res[[2]][,1:4]); colMeans(Res[[2]][,5:8])
 
 ### Save the Results ###
-save(Res,file = "~/Dropbox (Personal)/Columbia Radiogenomics/Analysis/Results/Cauchy_SECT.RData")
+save(Res,file = "~/Dropbox/Columbia Radiogenomics/Analysis/Results/Cauchy_SECT.RData")

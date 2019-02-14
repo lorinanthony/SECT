@@ -41,7 +41,7 @@ out.file = "~/Dropbox/Columbia Radiogenomics/Data/MRIECs.RData"
 ecf = ecf(in.dir = dir,out.file = out.file,img.dir = "baseline/Segmentations/enh",first.only = FALSE)
 
 ### Load in the List that holds the Euler Characteristic (EC) Curves for the TCIA Samples ###
-load('~/Dropbox (Personal)/Columbia Radiogenomics/Data/MRI_ECs.RData')
+load("~/Dropbox/Columbia Radiogenomics/Data/MRI_ECs.RData")
 nrot = ncol(MRI_list[[1]]$EC); stepsize = nrow(MRI_list[[1]]$EC)
 ECs = matrix(nrow = length(MRI_list),ncol = nrot*stepsize)
 rownames(ECs) = 1:nrow(ECs)

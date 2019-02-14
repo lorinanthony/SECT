@@ -28,7 +28,7 @@ error.bar <- function(x, y, upper, lower=upper, length=0.1,...){
 ######################################################################################
 
 ### Change the Working Directory ###
-setwd("~/Dropbox (Personal)/Columbia Radiogenomics/Analysis/Results/")
+setwd("~/Dropbox/Columbia Radiogenomics/Analysis/Results/")
 
 ### Load in the Cross-Validation Results ###
 load("Linear_SECT.RData"); A = Res
@@ -73,7 +73,7 @@ round(cbind(colMeans(OS),apply(OS,2,sd)/sqrt(n.splits)),3)
 ######################################################################################
 
 ### Set the Working Directory for Figures ###
-setwd("~/Dropbox (Personal)/Columbia Radiogenomics/Analysis/Figures")
+setwd("~/Dropbox/Columbia Radiogenomics/Analysis/Figures")
 
 ### Look at the Squared Correlation Coefficient ###
 dfs.cor = c(colMeans(A[[2]][,5:8]),colMeans(B[[2]][,5:8]),colMeans(C[[2]][,5:8]))
