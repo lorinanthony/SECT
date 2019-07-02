@@ -52,6 +52,7 @@ We segmented the TCIA MRIs using the [Medical Imaging Interaction Toolkit with a
 A tutorial for running the smooth Euler chatacteristic transform is given under the `Tutorial` directory. To replicate results similar to those presented during the predictive analysis in Crawford et al. (2018), use code found in the `Analysis` directory. Here, one simply needs to do the following two steps:
 1. Make sure that the current working directory contains all elements from this SECT repo; 
 2. Run the `Paper_Scripts.R` file. 
+
 This will create a series of tables similiar to Table 1 in the main text. Note that the current version of the SECT code takes images/shapes that are formatted as png files.
 
 ### Relevant Citations
