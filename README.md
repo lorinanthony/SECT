@@ -48,8 +48,11 @@ MRIs of primary GBM tumors were collected from 90+ patients archived by the TCIA
 
 We segmented the TCIA MRIs using the [Medical Imaging Interaction Toolkit with augmented tools for segmentation (MITKats)](https://github.com/RabadanLab/MITKats), from [Chen and Rabadan (2017)](https://link.springer.com/chapter/10.1007/978-3-319-69775-8_10), to extract tumor lesions from the surrounding brain tissue. Briefly, this algorithm first converts MRI images to a grayscale, and then thresholds to generate binary images. Morphological segmentation is then applied to delineate connected components. More specifically, the program selects contours corresponding to enhanced tumor lesions, which are lighter than healthy brain tissue. For instance, necrosis presents as dark regions nested within the indicated lesion. Examples of the raw image obtained from TCIA, and the final segmented result, are given in Crawford et al. (2018) under Figure 3(a) and Figure 3(b), respectively. All segmented TCIA images used in our study can be found in a zipped file in the Data directory.
 
-### Running SECT and GP Regression
-The tutorial for running a predictive analysis, similar to the one presented in Crawford et al. (2018), can be found in the Analysis directory. Note that the current version of the SECT code takes images/shapes that are formatted as png files. This script serves as a means of reproducibility of the results presented in the manuscript.
+### Running SECT and Reproducing Real Data Predictive Analysis
+A tutorial for running the smooth Euler chatacteristic transform is given under the `Tutorial` directory. To replicate results similar to those presented during the predictive analysis in Crawford et al. (2018), use code found in the `Analysis` directory. Here, one simply needs to do the following two steps:
+1. Make sure that the current working directory contains all elements from this SECT repo; 
+2. Run the `Paper_Scripts.R` file. 
+This will create a series of tables similiar to Table 1 in the main text. Note that the current version of the SECT code takes images/shapes that are formatted as png files.
 
 ### Relevant Citations
 L. Crawford, A. Monod, A.X. Chen, S. Mukherjee, and R. Rabadán (2018). Functional Data Analysis using a Topological Summary Statistic: the Smooth Euler Characteristic Transform. arXiv. 1611.06818.

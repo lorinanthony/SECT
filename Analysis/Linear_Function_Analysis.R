@@ -1,9 +1,3 @@
-### Clear Console ###
-cat("\014")
-
-### Clear Environment ### 
-rm(list = ls(all = TRUE))
-
 ### Load in the R libraries ###
 library(BGLR)
 library(doParallel)
@@ -13,14 +7,14 @@ library(RcppArmadillo)
 library(RcppParallel)
 
 ### Load in the C++ BAKR Kernel functions ###
-sourceCpp("~/Dropbox/Columbia Radiogenomics/Software/Kernel_Functions.cpp")
+sourceCpp("./Software/Kernel_Functions.cpp")
 
 ######################################################################################
 ######################################################################################
 ######################################################################################
 
 ### Load in the List that holds the Euler Characteristic (EC) Curves for the TCIA Samples ###
-load("~/Dropbox/Columbia Radiogenomics/Data/MRI_ECs.RData")
+load("./Data/MRI_ECs.RData")
 nrot = ncol(MRI_list[[1]]$EC); stepsize = nrow(MRI_list[[1]]$EC)
 ECs = matrix(nrow = length(MRI_list),ncol = nrot*stepsize)
 rownames(ECs) = 1:nrow(ECs)
@@ -40,7 +34,7 @@ ECs = ECs[,-seq(101,ncol(ECs),by=101)]
 ######################################################################################
 
 ### Load in the TCGA Gene Expression Data ###
-load("~/Dropbox/Columbia Radiogenomics/Data/TCGA_GBM_Expression.RData")
+load("./Data/TCGA_GBM_Expression.RData")
 G = t(X_TCGA[,which(colnames(X_TCGA)%in%rownames(ECs))])
 
 ### Find Overlapping Samples: ECs and Gene Expression ### 
@@ -52,7 +46,7 @@ G = G[match(rownames(ECs),rownames(G)),]
 ######################################################################################
 
 ### Load in the Morphometric Data For the TCIA MRIs ###
-Morph = read.table("~/Dropbox/Columbia Radiogenomics/Data/TCIA_Morphometrics.txt",header = TRUE)
+Morph = read.table("./Data/TCIA_Morphometrics.txt",header = TRUE)
 rownames(Morph) = paste(Morph$Feature,Morph$Statistics,sep = "_")
 colnames(Morph) = gsub("[.]", "-", as.character(colnames(Morph)))
 Morph = t(Morph[,-c(1:2)])
@@ -69,7 +63,7 @@ G = G[which(rownames(G)%in%rownames(Morph)),]
 ######################################################################################
 
 ### Load in the Geometric Data For the TCIA MRIs ###
-Geo = read.xls("~/Dropbox/Columbia Radiogenomics/Data/TCIA_Geometrics.xls")
+Geo = read.xls("./Data/TCIA_Geometrics.xls")
 rownames(Geo) = Geo$Patient.ID; Geo = as.matrix(Geo[,-c(1,6:11)])
 Geo = Geo[which(rownames(Geo)%in%rownames(ECs)),]
 
@@ -91,7 +85,7 @@ dim(ECs); dim(G); dim(Geo); dim(Morph);
 ######################################################################################
 
 ### Read in the Phenotypes ###
-Phenos = read.csv("~/Dropbox/Columbia Radiogenomics/Data/TCGA_Clinical_Traits.csv")
+Phenos = read.csv("./Data/TCGA_Clinical_Traits.csv")
 Y = Phenos; rownames(Y) = as.character(Y$Patient.ID); Y = Y[,-1]
 
 ### Find Overlapping Samples: ECs and Clinical Traits (DFS and OS) ### 
@@ -165,8 +159,7 @@ for(j in 1:ncol(Y)){
     Kn = K[ind,ind]
     fhat = K[,ind] %*% solve(Kn + diag(sigma,nrow(Kn)),y[ind])
     
-    ### Assess the Model Type with the Mean Absolute Error and Predictive R^2 ###
-    MAE.Geo = mean(abs(y[-ind]-fhat[-ind]))
+    ### Assess the Model Type with Predictive Correlation R^2 ###
     R2_Geo = cor(y[-ind],fhat[-ind])^2
     
     ######################################################################################
@@ -188,8 +181,7 @@ for(j in 1:ncol(Y)){
     Kn = K[ind,ind]
     fhat = K[,ind] %*% solve(Kn + diag(sigma,nrow(Kn)),y[ind])
     
-    ### Assess the Model Type with the Mean Absolute Error and Predictive R^2 ###
-    MAE.Morph = mean(abs(y[-ind]-fhat[-ind]))
+    ### Assess the Model Type with Predictive Correlation R^2 ###
     R2_Morph = cor(y[-ind],fhat[-ind])^2
     
     ######################################################################################
@@ -211,8 +203,7 @@ for(j in 1:ncol(Y)){
     Kn = K[ind,ind]
     fhat = K[,ind] %*% solve(Kn + diag(sigma,nrow(Kn)),y[ind])
     
-    ### Assess the Model Type with the Mean Absolute Error and Predictive R^2 ###
-    MAE.G = mean(abs(y[-ind]-fhat[-ind]))
+    ### Assess the Model Type with Predictive Correlation R^2 ###
     R2_G = cor(y[-ind],fhat[-ind])^2
     
     ######################################################################################
@@ -234,8 +225,7 @@ for(j in 1:ncol(Y)){
     Kn = K[ind,ind]
     fhat = K[,ind] %*% solve(Kn + diag(sigma,nrow(Kn)),y[ind])
     
-    ### Assess the Model Type with the Mean Absolute Error and Predictive R^2 ###
-    MAE.ECs = mean(abs(y[-ind]-fhat[-ind]))
+    ### Assess the Model Type with Predictive Correlation R^2 ###
     R2_ECs = cor(y[-ind],fhat[-ind])^2
     
     ######################################################################################
@@ -243,21 +233,17 @@ for(j in 1:ncol(Y)){
     ######################################################################################
     
     ### Save The Results ###
-    c(MAE.G,MAE.Morph,MAE.Geo,MAE.ECs,R2_G,R2_Morph,R2_Geo,R2_ECs)
+    c(R2_G,R2_Morph,R2_Geo,R2_ECs)
   }
   
   ### Create a matrix to save results ###
-  Final = matrix(unlist(Results),nrow = ndatasets,ncol = 8,byrow = TRUE)
+  Final = matrix(unlist(Results),nrow = ndatasets,ncol = 4,byrow = TRUE)
   mod.names = c("Expression","Morph","Geo","ECs")
-  colnames(Final) = c(paste("MAE",mod.names,sep="_"),paste("R2",mod.names,sep="_"))
+  colnames(Final) = c(paste("R2",mod.names,sep="_"))
   
   ### Save the Results ###
-  Res[[j]] = Final; cat("Completed Phenotype",j,"\n")
+  Res[[j]] = Final; cat("Completed Phenotype",j,"for Linear Function\n")
 }
 
-### Check the Results: (1) Overall Survival; (2) Disease Free Surival ###
-colMeans(Res[[1]][,1:4]); colMeans(Res[[1]][,5:8])
-colMeans(Res[[2]][,1:4]); colMeans(Res[[2]][,5:8])
-
 ### Save the Results ###
-save(Res,file = "~/Dropbox/Columbia Radiogenomics/Analysis/Results/Linear_SECT.RData")
+save(Res,file = "./Analysis/Prediction_Results/Linear_SECT.RData")

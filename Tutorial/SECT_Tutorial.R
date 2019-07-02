@@ -11,17 +11,17 @@ library(gdata)
 library(Rcpp)
 library(RcppArmadillo)
 library(RcppParallel)
-library(R.matlab)
+#library(R.matlab)
 
 ######################################################################################
 ######################################################################################
 ######################################################################################
 
 ### Run the MATLAB Code that creates the EC Matrices for each image ###
-#system("/Users/lorincrawford/Applications/MATLAB_R2017a.app/bin/matlab -nodisplay -r \"run('~/Dropbox/Columbia Radiogenomics/Software/CompEC.m'); exit\"")
+#system("~/Applications/MATLAB_R2017a.app/bin/matlab -nodisplay -r \"run('./Software/CompEC.m'); exit\"")
 
 ### Load in the structural array that holds the EC Matrices ###
-#Shapes = readMat('~/Dropbox/Columbia Radiogenomics/Data/ECs.mat')
+#Shapes = readMat('./Data/ECs.mat')
 #ECs = matrix(unlist(Shapes$Shapes[seq(2,length(Shapes$Shapes),2)]),nrow = length(Shapes$Shapes)/2,byrow = TRUE)
 
 ######################################################################################
@@ -29,19 +29,19 @@ library(R.matlab)
 ######################################################################################
 
 ### Run the R Code that creates the EC Matrices for each image ###
-source("~/Dropbox/Columbia Radiogenomics/Software/EC3D.R")
+source("./Software/EC3D.R")
 
 ### Set up the Parameters ###
-setwd("~/Dropbox/Columbia Radiogenomics/Data")
+setwd("./Data")
 startdir = getwd()
 in.dir = "MITKSegmentations"
-out.file = "~/Dropbox/Columbia Radiogenomics/Data/MRIECs.RData"
+out.file = "./Data/MRIECs.RData"
 
 ### Run The Euler Characteristic Function ###
 ecf = ecf(in.dir = dir,out.file = out.file,img.dir = "baseline/Segmentations/enh",first.only = FALSE)
 
 ### Load in the List that holds the Euler Characteristic (EC) Curves for the TCIA Samples ###
-load("~/Dropbox/Columbia Radiogenomics/Data/MRI_ECs.RData")
+load("./Data/MRI_ECs.RData")
 nrot = ncol(MRI_list[[1]]$EC); stepsize = nrow(MRI_list[[1]]$EC)
 ECs = matrix(nrow = length(MRI_list),ncol = nrot*stepsize)
 rownames(ECs) = 1:nrow(ECs)
@@ -56,3 +56,8 @@ for(i in 1:nrow(ECs)){
 ### Remove the Vectors of Zeros where a New MRI Slice Begins ###
 ECs = ECs[,-seq(101,ncol(ECs),by=101)]
 
+### Plot the SECT for Different Samples in 1 Direction ###
+plot(ECs[1,1:100],type = "l", col = "blue", lwd = 2,bty = "n",ylab = "Smooth Euler Characteristic Transform (SECT)",xlab = "Sublevel Sets", ylim = c(1.5,4))
+lines(ECs[2,1:100],col = "red", lty = 2, lwd = 2)
+lines(ECs[4,1:100],col = "forest green", lty = 4, lwd = 2)
+legend("top",legend = c("Patient #1","Patient #2","Patient #3"),col = c("blue","red","forest green"),lty = c(1,2,4),lwd = 2,horiz = TRUE,bty = "n")
