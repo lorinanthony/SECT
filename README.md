@@ -59,6 +59,6 @@ This will create a series of tables similiar to Table 1 in the main text. Note t
 L. Crawford, A. Monod, A.X. Chen, S. Mukherjee, and R. Rabadán (2018). Functional Data Analysis using a Topological Summary Statistic: the Smooth Euler Characteristic Transform. arXiv. 1611.06818.
 
 ### Questions and Feedback
-For questions or concerns with the SECT functions, please contact [Lorin Crawford](mailto:lorin_crawford@brown.edu) or [Anthea Monod](mailto:am4691@cumc.columbia.edu).
+For questions or concerns with the SECT functions, please contact [Lorin Crawford](mailto:lorin_crawford@brown.edu) or [Anthea Monod](antheam@tauex.tau.ac.il).
 
 We appreciate any feedback you may have with our repository and instructions.
