@@ -19,6 +19,10 @@ library(RcppParallel)
 
 ### NOTE: Please run each of these lines in subsequent order. The last lines should print a table. Here, we predict disease free survival (DFS) and overall survival (OS) using Gaussian process (GP) regression models defined by the linear, Gaussian, and Cauchy covariance functions, respectively. For each model fit, we consider the predictive utility of four different genomic data types: gene expression, tumor morphometry, tumor geometry, and the proposed smooth Euler characteristic transform (SECT). Assessment is carried out in the first column by using the predictive squared correlation coefficient (R^2), where larger numbers indicate better performance. These values are based on 1000 random 80-20 splits for each clinical outcome. Standard errors for each model are given the second column. In the third column, we use Optimal% to denote the percentage of the time that a model exhibits the greatest R^2. Lastly, we give estimates for the bandwidth (or length-scale) parameter θ used to compute each kernel function in the fourth column. Note that θ was found by using 10-fold cross-validation over the grid [0.1, 10] with step sizes equal to 0.1. ###
 
+### Update: We have added two new lines to track how long it takes to run the analyses. It should take about 3.5 minutes on a MacBook Pro (Processor: 3.1-gigahertz (GHz) Intel Core i5, Memory: 8GB 2133-megahertz (MHz) LPDDR3).
+
+ptm <- proc.time() #Start clock for timing
+
 ### GP Regression w/ Linear Covariance Function ###
 source("./Analysis/Linear_Function_Analysis.R")
 
@@ -27,6 +31,8 @@ source("./Analysis/Gauss_Function_Analysis.R")
 
 ### GP Regression w/ Cauchy Covariance Function ###
 source("./Analysis/Cauchy_Function_Analysis.R")
+
+proc.time() - ptm #Stop clock and check
 
 ######################################################################################
 ######################################################################################
