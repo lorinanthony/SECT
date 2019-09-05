@@ -17,8 +17,6 @@ The statistical implementation of the SECT topological summaries using functiona
 
 * [doParallel](https://cran.r-project.org/web/packages/doParallel/index.html)
 
-* [gdata](https://cran.r-project.org/web/packages/gdata/index.html)
-
 * [Rcpp](https://cran.r-project.org/web/packages/Rcpp/index.html)
 
 * [RcppArmadillo](https://cran.r-project.org/web/packages/RcppArmadillo/index.html)
