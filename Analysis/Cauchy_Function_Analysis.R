@@ -63,8 +63,8 @@ G = G[which(rownames(G)%in%rownames(Morph)),]
 ######################################################################################
 
 ### Load in the Geometric Data For the TCIA MRIs ###
-Geo = read.xls("./Data/TCIA_Geometrics.xls")
-rownames(Geo) = Geo$Patient.ID; Geo = as.matrix(Geo[,-c(1,6:11)])
+Geo = read.csv("./Data/TCIA_Geometrics.csv")
+rownames(Geo) = Geo$Patient.ID; Geo = as.matrix(Geo[,-1])
 Geo = Geo[which(rownames(Geo)%in%rownames(ECs)),]
 
 ### Find Overlapping Samples: Geometrics vs. {ECs, Expression, Morphometrics} ### 

@@ -9,7 +9,6 @@ rm(list = ls(all = TRUE))
 ### Load in the R libraries ###
 library(BGLR)
 library(doParallel)
-library(gdata)
 library(Rcpp)
 library(RcppArmadillo)
 library(RcppParallel)
