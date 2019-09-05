@@ -7,7 +7,6 @@ rm(list = ls(all = TRUE))
 ### Load in the R libraries ###
 library(BGLR)
 library(doParallel)
-library(gdata)
 library(Rcpp)
 library(RcppArmadillo)
 library(RcppParallel)
@@ -30,6 +29,8 @@ library(RcppParallel)
 
 ### Run the R Code that creates the EC Matrices for each image ###
 source("./Software/EC3D.R")
+
+ptm <- proc.time() #Start clock for timing
 
 ### Set up the Parameters ###
 startdir = "./Data"
@@ -54,6 +55,12 @@ for(i in 1:nrow(ECs)){
 
 ### Remove the Vectors of Zeros where a New MRI Slice Begins ###
 ECs = ECs[,-seq(101,ncol(ECs),by=101)]
+
+proc.time() - ptm #Stop clock and check
+
+######################################################################################
+######################################################################################
+######################################################################################
 
 ### Plot the SECT for Different Samples in 1 Direction ###
 plot(ECs[1,1:100],type = "l", col = "blue", lwd = 2,bty = "n",ylab = "Smooth Euler Characteristic Transform (SECT)",xlab = "Sublevel Sets", ylim = c(1.5,4))
