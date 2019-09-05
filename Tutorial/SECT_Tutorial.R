@@ -32,13 +32,12 @@ library(RcppParallel)
 source("./Software/EC3D.R")
 
 ### Set up the Parameters ###
-setwd("./Data")
-startdir = getwd()
-in.dir = "MITKSegmentations"
+startdir = "./Data"
+in.dir = "./Data/MITKSegmentations"
 out.file = "./Data/MRIECs.RData"
 
 ### Run The Euler Characteristic Function ###
-ecf = ecf(in.dir = dir,out.file = out.file,img.dir = "baseline/Segmentations/enh",first.only = FALSE)
+ecf = ecf(in.dir = in.dir,out.file = out.file,img.dir = "baseline/Segmentations/enh",first.only = FALSE)
 
 ### Load in the List that holds the Euler Characteristic (EC) Curves for the TCIA Samples ###
 load("./Data/MRI_ECs.RData")

@@ -1,0 +1,107 @@
+"MetaElementGroupLength" -> 194
+"FileMetaInformationVersion" -> {0, 1}
+"MediaStorageSOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"MediaStorageSOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 2783, 4001, 331871369462108177577578019539}
+"TransferSyntaxUID" -> {1, 2, 840, 10008, 1, 2, 1}
+"ImplementationClassUID" -> {1, 2, 40, 0, 13, 1, 1}
+"ImplementationVersionName" -> "dcm4che-1.4.27"
+"SpecificCharacterSet" -> "ISO_IR 100"
+"ImageType" -> {"ORIGINAL", "PRIMARY", "M", "NORM", "DIS2D", "SH1_1", "FIL"}
+"InstanceCreationDate" -> {2001, 6, 14}
+"InstanceCreationTime" -> {8, 55, 39.187}
+"SOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"SOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 2783, 4001, 331871369462108177577578019539}
+"StudyDate" -> {2001, 6, 14}
+"SeriesDate" -> {2001, 6, 14}
+"AcquisitionDate" -> {2001, 6, 14}
+"ContentDate" -> {2001, 6, 14}
+"StudyTime" -> {8, 21, 40.593}
+"SeriesTime" -> {8, 55, 39.187}
+"AcquisitionTime" -> {8, 54, 32.77}
+"ContentTime" -> {8, 55, 39.187}
+"(0008,0040)" -> 0
+"(0008,0041)" -> "IMA NONE"
+"AccessionNumber" -> "1636237459393610"
+"Modality" -> "MR"
+"Manufacturer" -> "SIEMENS"
+"StationName" -> "EUHMR2"
+"StudyDescription" -> "Head^Routine"
+"SeriesDescription" -> "t1_tra post_FIL"
+"ManufacturerModel" -> "Avanto"
+"PatientName" -> "TCGA-14-1829"
+"PatientID" -> "TCGA-14-1829"
+"PatientSex" -> "M"
+"PatientAge" -> {57, 0, 0}
+"PatientWeight" -> 86.182561263
+"(0012,0062)" -> "YES"
+"(0012,0063)" -> "DCM:113100/113105/113107/113108/113109/113111"
+"(0013,0010)" -> "CTP"
+"(0013,1010)" -> "TCGA-GBM"
+"(0013,1013)" -> "27834001"
+"ContrastBolusAgent" -> "with contrast"
+"BodyPartExamined" -> "BRAIN"
+"ScanningSequence" -> "SE"
+"SequenceVariant" -> "SP"
+"ScanOptions" -> "SAT1"
+"MRAcquisitionType" -> "2D"
+"SequenceName" -> "*se2d1r"
+"AngioFlag" -> "N"
+"SliceThickness" -> 5
+"RepetitionTime" -> 454
+"EchoTime" -> 17
+"AveragesCount" -> 1
+"ImagingFrequency" -> 63.679144
+"ImagedNucleus" -> "1H"
+"EchoNumbers" -> 1
+"MagneticFieldStrength" -> 1.5
+"SlicesSpacing" -> 6
+"PhaseEncodingSteps" -> 144
+"EchoTrainLength" -> 1
+"PercentSampling" -> 60
+"PercentPhaseFieldOfView" -> 75
+"PixelBandwidth" -> 130
+"DeviceSerialNumber" -> "26356"
+"SoftwareVersions" -> "syngo MR B15"
+"Protocol" -> "t1_tra post"
+"ContrastBolusVolume" -> 0
+"ContrastBolusTotalDose" -> 0
+"ContrastBolusIngredientConcentration" -> 0
+"TransmittingCoil" -> "Body"
+"AcquisitionMatrix" -> {0, 320, 144, 0}
+"PhaseEncodingDirection" -> "ROW"
+"FlipAngle" -> 76
+"VariableFlipAngleFlag" -> "N"
+"SAR" -> 0.72857600553604
+"DBDT" -> 0
+"PatientPosition" -> "HFS"
+"StudyInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 2783, 4001, 103854061130261737009165000972}
+"SeriesInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 2783, 4001, 205825532038639087891764382972}
+"SeriesNumber" -> 10
+"AcquisitionNumber" -> 1
+"InstanceNumber" -> 1
+"ImagePosition" -> {-86.092636895347, -154.45524371393, -95.899400314585}
+"ImageOrientation" -> {0.99981571212643, 0.00415508652467, 0.01874238621687, 2.248474*^-10, 0.97629600970156, -0.2164396022931}
+"ReferenceFrameUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 2783, 4001, 886870749752086030527876771845}
+"SliceLocation" -> -125.38026000566
+"SamplesPerPixel" -> 1
+"PhotometricInterpretation" -> "MONOCHROME2"
+"Rows" -> 320
+"Columns" -> 240
+"PixelSpacing" -> {0.71875, 0.71875}
+"AllocatedBits" -> 16
+"StoredBits" -> 12
+"HighBit" -> 11
+"PixelRepresentation" -> 0
+"MinPixelValue" -> 0
+"MaxPixelValue" -> 3883
+"(0028,0303)" -> "MODIFIED"
+"WindowCenter" -> 740
+"WindowWidth" -> 1469
+"WindowGeometryExplanation" -> "Algo1"
+"RequestedProcedureDescription" -> "MRI BRAIN W/+W/O CONT"
+"PerformedProcedureStartDate" -> {2001, 6, 14}
+"PerformedProcedureStartTime" -> {8, 21, 40.671}
+"PerformedProcedureDescription" -> "MRI BRAIN W/+W/O CONT"
+"RequestAttributesSequence" -> {"ScheduledProcedureDescription" -> "MRI BRAIN W/+W/O CONT", "RequestedProcedureID" -> "E5283271"}
+"VerifyingObserver" -> "Removed by CTP"
+"PersonName" -> "Removed by CTP"

@@ -1,0 +1,108 @@
+"MetaElementGroupLength" -> 196
+"FileMetaInformationVersion" -> {0, 1}
+"MediaStorageSOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"MediaStorageSOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 250780589914169206124149327304}
+"TransferSyntaxUID" -> {1, 2, 840, 10008, 1, 2, 1}
+"ImplementationClassUID" -> {1, 2, 40, 0, 13, 1, 1, 1}
+"ImplementationVersionName" -> "dcm4che-1.4.31"
+"ImageType" -> {"ORIGINAL", "PRIMARY", "OTHER"}
+"SOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"SOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 250780589914169206124149327304}
+"StudyDate" -> {2000, 10, 17}
+"SeriesDate" -> {2000, 10, 17}
+"AcquisitionDate" -> {2000, 10, 17}
+"ContentDate" -> {2000, 10, 17}
+"StudyTime" -> {11, 4, 38}
+"SeriesTime" -> {11, 36, 51.2}
+"AcquisitionTime" -> {11, 37, 11.17}
+"ContentTime" -> {11, 37, 11.17}
+"AccessionNumber" -> "3185078092116358"
+"Modality" -> "MR"
+"Manufacturer" -> "HITACHI MEDICAL CORPORATION"
+"StationName" -> "AIRIS2-2"
+"StudyDescription" -> "BRAIN WWO"
+"ProcedureCodeSequence" -> {}
+"SeriesDescription" -> "T1 SE TRS +C"
+"ManufacturerModel" -> "AIRIS II"
+"PatientName" -> "TCGA-76-6286"
+"PatientID" -> "TCGA-76-6286"
+"PatientSex" -> "M"
+"PatientAge" -> {60, 0, 0}
+"PatientWeight" -> 96.615175
+"PatientComments" -> " PREV 10/09 HERE//F/U FOR KNOWN LESION//ANTERIOR PARIETAL/"
+"(0012,0062)" -> "YES"
+"(0012,0063)" -> "Per DICOM PS 3.15 AnnexE. Details in 0012,0064"
+"(0012,0064)" -> {{"CodeValue" -> "113100", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Basic Application Confidentiality Profile"}, {"CodeValue" -> "113101", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Clean Pixel Data Option"}, {"CodeValue" -> "113103", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Clean Graphics Option"}, {"CodeValue" -> "113105", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Clean Descriptors Option"}, {"CodeValue" -> "113107", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Longitudinal With Modified Dates Option"}, {"CodeValue" -> "113108", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Patient Characteristics Option"}, {"CodeValue" -> "113109", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Device Identity Option"}, {"CodeValue" -> "113111", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Safe Private Option"}}
+"(0013,0010)" -> "CTP"
+"(0013,1010)" -> "TCGA-GBM"
+"(0013,1013)" -> "11884001"
+"ContrastBolusAgent" -> "Gd-DTPA"
+"BodyPartExamined" -> "BRAIN"
+"ScanningSequence" -> "SE"
+"SequenceVariant" -> "NONE"
+"MRAcquisitionType" -> "2D"
+"SequenceName" -> "SE"
+"AngioFlag" -> "N"
+"SliceThickness" -> 5.
+"RepetitionTime" -> 430
+"EchoTime" -> 17.8
+"InversionTime" -> 0
+"AveragesCount" -> 4
+"ImagingFrequency" -> 12.679758
+"ImagedNucleus" -> "H1"
+"EchoNumbers" -> 1
+"MagneticFieldStrength" -> 0.3
+"SlicesSpacing" -> 7.
+"PhaseEncodingSteps" -> 160
+"EchoTrainLength" -> 0
+"PercentSampling" -> 80
+"PercentPhaseFieldOfView" -> 80
+"DeviceSerialNumber" -> "12213"
+"SoftwareVersions" -> "V5.0R-3"
+"Protocol" -> "BRAIN  10 SL. 2:40"
+"ContrastBolusVolume" -> 0
+"TriggerTime" -> 0
+"NominalInterval" -> 0
+"LowRRValue" -> 0
+"HighRRValue" -> 0
+"IntervalsAcquired" -> 0
+"IntervalsRejected" -> 0
+"SkipBeats" -> 0
+"HeartRate" -> 0
+"TriggerWindow" -> 0
+"ReconstructionDiameter" -> 240
+"ReceivingCoil" -> "QD Head"
+"AcquisitionMatrix" -> {0, 256, 160, 0}
+"PhaseEncodingDirection" -> "ROW"
+"FlipAngle" -> 90
+"SAR" -> 0.1
+"DBDT" -> 13.6
+"PatientPosition" -> "HFS"
+"StudyInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 250103832858651730032288725044}
+"SeriesInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 209744878753654050153452699517}
+"SeriesNumber" -> 6
+"AcquisitionNumber" -> 1
+"InstanceNumber" -> 1
+"ImagePosition" -> {-121.22665, -101.49675, -80.646862}
+"ImageOrientation" -> {0.99955986, 0, 0.029666244, 0.00067188822, 0.9997435, -0.022638272}
+"ReferenceFrameUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 282804740635262397295785457058}
+"ImagesInAcquisition" -> 24
+"PositionReferenceIndicator" -> "000011248"
+"SliceLocation" -> -79.3
+"SamplesPerPixel" -> 1
+"PhotometricInterpretation" -> "MONOCHROME2"
+"Rows" -> 256
+"Columns" -> 256
+"PixelSpacing" -> {0.9375, 0.9375}
+"PixelAspectRatio" -> {1, 1}
+"AllocatedBits" -> 16
+"StoredBits" -> 12
+"HighBit" -> 11
+"PixelRepresentation" -> 1
+"MinPixelValue" -> 0
+"MaxPixelValue" -> 1409
+"BurnedInAnnotation" -> "NO"
+"(0028,0303)" -> "MODIFIED"
+"WindowCenter" -> 375
+"WindowWidth" -> 750
+"(0073,0010)" -> "STENTOR"

@@ -1,0 +1,112 @@
+"MetaElementGroupLength" -> 196
+"FileMetaInformationVersion" -> {0, 1}
+"MediaStorageSOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"MediaStorageSOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 324113369862937085379998099982}
+"TransferSyntaxUID" -> {1, 2, 840, 10008, 1, 2, 1}
+"ImplementationClassUID" -> {1, 2, 40, 0, 13, 1, 1, 1}
+"ImplementationVersionName" -> "dcm4che-1.4.31"
+"SpecificCharacterSet" -> "ISO_IR 100"
+"ImageType" -> {"ORIGINAL", "PRIMARY", "M_SE", "M", "SE"}
+"InstanceCreationDate" -> {1998, 7, 21}
+"InstanceCreationTime" -> {9, 1, 59}
+"InstanceCreatorUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 163136210897977285718378883737}
+"SOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"SOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 324113369862937085379998099982}
+"StudyDate" -> {1998, 7, 21}
+"SeriesDate" -> {1998, 7, 21}
+"AcquisitionDate" -> {1998, 7, 21}
+"ContentDate" -> {1998, 7, 21}
+"StudyTime" -> {6, 55, 7}
+"SeriesTime" -> {8, 51, 58.37}
+"AcquisitionTime" -> {8, 51, 58.37}
+"ContentTime" -> {8, 51, 58.37}
+"AccessionNumber" -> "1390135049953642"
+"Modality" -> "MR"
+"Manufacturer" -> "Philips Medical Systems"
+"StationName" -> "PMSN-1DL0VL9SN4"
+"StudyDescription" -> "MRI BRAIN WITHO"
+"ProcedureCodeSequence" -> {}
+"SeriesDescription" -> "T1 SE POST"
+"ManufacturerModel" -> "Achieva"
+"PatientName" -> "TCGA-76-6280"
+"PatientID" -> "TCGA-76-6280"
+"PatientSex" -> "M"
+"PatientWeight" -> 79.
+"PregnancyStatus" -> 4
+"(0012,0062)" -> "YES"
+"(0012,0063)" -> "Per DICOM PS 3.15 AnnexE. Details in 0012,0064"
+"(0012,0064)" -> {{"CodeValue" -> "113100", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Basic Application Confidentiality Profile"}, {"CodeValue" -> "113101", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Clean Pixel Data Option"}, {"CodeValue" -> "113103", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Clean Graphics Option"}, {"CodeValue" -> "113105", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Clean Descriptors Option"}, {"CodeValue" -> "113107", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Longitudinal With Modified Dates Option"}, {"CodeValue" -> "113108", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Patient Characteristics Option"}, {"CodeValue" -> "113109", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Device Identity Option"}, {"CodeValue" -> "113111", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Safe Private Option"}}
+"(0013,0010)" -> "CTP"
+"(0013,1010)" -> "TCGA-GBM"
+"(0013,1013)" -> "11884001"
+"BodyPartExamined" -> "BRAIN"
+"ScanningSequence" -> "SE"
+"SequenceVariant" -> "SK"
+"ScanOptions" -> "FS"
+"SliceThickness" -> 5.
+"RepetitionTime" -> 589.223999023437
+"EchoTime" -> 12.
+"AveragesCount" -> 2.
+"ImagingFrequency" -> 63.900276
+"ImagedNucleus" -> "1H"
+"EchoNumbers" -> 1
+"MagneticFieldStrength" -> 1.5
+"SlicesSpacing" -> 7.
+"PhaseEncodingSteps" -> 204
+"EchoTrainLength" -> 6
+"PercentSampling" -> 80.
+"PercentPhaseFieldOfView" -> 100.
+"DeviceSerialNumber" -> "13020"
+"SoftwareVersions" -> {"1.5.4", "1.5.4.3", "Gyroscan PMS/DICOM 2.0 MR $Id: datadefs,v 5.27 2004/10/18 06:50:"}
+"Protocol" -> "T1 SE POST"
+"LowRRValue" -> 0
+"HighRRValue" -> 0
+"IntervalsAcquired" -> 0
+"IntervalsRejected" -> 0
+"HeartRate" -> 0
+"ReconstructionDiameter" -> 220.
+"ReceivingCoil" -> "Head"
+"TransmittingCoil" -> "B"
+"AcquisitionMatrix" -> {0, 256, 204, 0}
+"PhaseEncodingDirection" -> "ROW"
+"FlipAngle" -> 69.
+"PatientPosition" -> "HFS"
+"StudyInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 259303451742499057480927151400}
+"SeriesInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 259307244299991614762344622590}
+"SeriesNumber" -> 701
+"AcquisitionNumber" -> 7
+"InstanceNumber" -> 1
+"ImagePosition" -> {-106.8358644424, -120.4944476895, -83.900215148925}
+"ImageOrientation" -> {0.99959999322891, 0.02828180231153, 0., -0.0282818023115, 0.99959999322891, 0.}
+"ReferenceFrameUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 151725741897439838436250241393}
+"TemporalPositionIdentifier" -> 1
+"TemporalPositionCount" -> 1
+"SliceLocation" -> 0.
+"SamplesPerPixel" -> 1
+"PhotometricInterpretation" -> "MONOCHROME2"
+"Rows" -> 256
+"Columns" -> 256
+"PixelSpacing" -> {0.859375, 0.859375}
+"PixelAspectRatio" -> {1, 1}
+"AllocatedBits" -> 16
+"StoredBits" -> 12
+"HighBit" -> 11
+"PixelRepresentation" -> 0
+"BurnedInAnnotation" -> "NO"
+"(0028,0303)" -> "MODIFIED"
+"WindowCenter" -> 203.601704055219
+"WindowWidth" -> 406.099277394305
+"LossyImageCompression" -> "00"
+"RequestedProcedureDescription" -> "MRI BRAIN WITHO"
+"PerformedStationAETitle" -> "MR15T"
+"PerformedProcedureStartDate" -> {1998, 7, 21}
+"PerformedProcedureStartTime" -> {6, 55, 7}
+"PerformedProcedureEndDate" -> {1998, 7, 21}
+"PerformedProcedureEndTime" -> {6, 55, 7}
+"PerformedProcedureDescription" -> "MRI BRAIN WITHO"
+"RequestAttributesSequence" -> {"ScheduledProcedureDescription" -> "MRI BRAIN WITHO", "ScheduledProcedureID" -> "4270417", "RequestedProcedureID" -> "3816441"}
+"FilmConsumptionSequence" -> {}
+"(0073,0010)" -> "STENTOR"
+"(2001,0010)" -> "Philips Imaging DD 001"
+"(2001,100B)" -> "TRANSVERSAL"
+"(2005,0010)" -> "Philips MR Imaging DD 001"

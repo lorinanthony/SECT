@@ -1,0 +1,115 @@
+"MetaElementGroupLength" -> 196
+"FileMetaInformationVersion" -> {0, 1}
+"MediaStorageSOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"MediaStorageSOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 341437888933128057713423905835}
+"TransferSyntaxUID" -> {1, 2, 840, 10008, 1, 2, 1}
+"ImplementationClassUID" -> {1, 2, 40, 0, 13, 1, 1, 1}
+"ImplementationVersionName" -> "dcm4che-1.4.31"
+"SpecificCharacterSet" -> "ISO_IR 100"
+"ImageType" -> {"ORIGINAL", "PRIMARY", "OTHER"}
+"SOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"SOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 341437888933128057713423905835}
+"StudyDate" -> {1996, 4, 12}
+"SeriesDate" -> {1996, 4, 12}
+"AcquisitionDate" -> {1996, 4, 12}
+"ContentDate" -> {1996, 4, 12}
+"StudyTime" -> {20, 2, 13.131}
+"SeriesTime" -> {20, 35, 22.241}
+"AcquisitionTime" -> {20, 35, 24.599}
+"ContentTime" -> {20, 38, 4.526}
+"AccessionNumber" -> "1818564964190748"
+"Modality" -> "MR"
+"Manufacturer" -> "SIEMENS"
+"StationName" -> "mrscan"
+"StudyDescription" -> "JHN BRAIN COMBO MR OP"
+"ProcedureCodeSequence" -> {"CodeValue" -> "MRHEBR*-", "CodeMeaning" -> "MRI BRAIN WITH AND WITHOUT CONTRAST"}
+"SeriesDescription" -> "BRAIN_STRYKER/t1_AX"
+"AdmittingDiagnosesDescription" -> "TUMOR"
+"ManufacturerModel" -> "MAGNETOM VISION"
+"(0009,0010)" -> "SPI RELEASE 1"
+"(0009,0012)" -> "SIEMENS CM VA0  CMS"
+"(0009,0013)" -> "SIEMENS CM VA0  LAB"
+"PatientName" -> "TCGA-76-4927"
+"PatientID" -> "TCGA-76-4927"
+"PatientSex" -> "M"
+"PatientAge" -> {58, 0, 0}
+"PatientWeight" -> 82
+"(0011,0010)" -> "SPI RELEASE 1"
+"(0011,0011)" -> "SIEMENS CM VA0  CMS"
+"(0012,0062)" -> "YES"
+"(0012,0063)" -> "Per DICOM PS 3.15 AnnexE. Details in 0012,0064"
+"(0012,0064)" -> {{"CodeValue" -> "113100", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Basic Application Confidentiality Profile"}, {"CodeValue" -> "113101", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Clean Pixel Data Option"}, {"CodeValue" -> "113103", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Clean Graphics Option"}, {"CodeValue" -> "113105", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Clean Descriptors Option"}, {"CodeValue" -> "113107", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Longitudinal With Modified Dates Option"}, {"CodeValue" -> "113108", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Patient Characteristics Option"}, {"CodeValue" -> "113109", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Device Identity Option"}, {"CodeValue" -> "113111", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Safe Private Option"}}
+"(0013,0010)" -> "CTP"
+"(0013,1010)" -> "TCGA-GBM"
+"(0013,1013)" -> "11884001"
+"ContrastBolusAgent" -> "APPLIED"
+"BodyPartExamined" -> "BRAIN"
+"ScanningSequence" -> "RM"
+"SequenceVariant" -> "OSP"
+"ScanOptions" -> "SP"
+"MRAcquisitionType" -> "2D"
+"SequenceName" -> "se1"
+"AngioFlag" -> "N"
+"SliceThickness" -> 5.
+"RepetitionTime" -> 540.
+"EchoTime" -> 12.
+"AveragesCount" -> 2
+"ImagingFrequency" -> 63.61559
+"ImagedNucleus" -> "1H"
+"EchoNumbers" -> 1
+"MagneticFieldStrength" -> 1.493806
+"SlicesSpacing" -> 2.5
+"EchoTrainLength" -> 1
+"PercentSampling" -> 100
+"PercentPhaseFieldOfView" -> 75
+"DeviceSerialNumber" -> "7216"
+"SoftwareVersions" -> "VB33G"
+"LastCalibrationDate" -> {1996, 3, 10}
+"LastCalibrationTime" -> {20, 1, 29.}
+"ReceivingCoil" -> "CP Head"
+"AcquisitionMatrix" -> {0, 512, 144, 0}
+"PhaseEncodingDirection" -> "ROW"
+"FlipAngle" -> 70
+"SAR" -> 0
+"PatientPosition" -> "HFS"
+"(0019,0010)" -> "SIEMENS CM VA0  CMS"
+"(0019,0012)" -> "SIEMENS MR VA0  GEN"
+"(0019,0014)" -> "SIEMENS MR VA0  COAD"
+"(0019,0015)" -> "SIEMENS CM VA0  ACQU"
+"StudyInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 268013276055869301208316805487}
+"SeriesInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 211462694055818918938902810916}
+"SeriesNumber" -> 7
+"AcquisitionNumber" -> 1
+"InstanceNumber" -> 274
+"(0020,0030)" -> {-116.388, -94.19643, 71.89075}
+"ImagePosition" -> {-116.81745, -94.62317, 71.838356}
+"(0020,0035)" -> {0.9993908, -0.0030417, 0.0347667, 0., 0.9961947000000001, 0.0871557}
+"ImageOrientation" -> {0.9993908, -0.0030417, 0.0347667, 0, 0.9961947, 0.0871557}
+"(0020,0050)" -> -83.84019
+"ReferenceFrameUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 1188, 4001, 269829082510599216313458580577}
+"(0020,0070)" -> "PLANAR"
+"(0020,1001)" -> 1
+"SliceLocation" -> -83.84019
+"(0021,0010)" -> "SIEMENS MED"
+"(0021,0011)" -> "SIEMENS CM VA0  CMS"
+"(0021,0013)" -> "SIEMENS MR VA0  GEN"
+"(0021,0023)" -> "SIEMENS MR VA0  RAW"
+"SamplesPerPixel" -> 1
+"PhotometricInterpretation" -> "MONOCHROME2"
+"(0028,0005)" -> 2
+"Rows" -> 256
+"Columns" -> 256
+"PixelSpacing" -> {0.859375, 0.859375}
+"(0028,0040)" -> "RECT"
+"AllocatedBits" -> 16
+"StoredBits" -> 12
+"HighBit" -> 11
+"PixelRepresentation" -> 0
+"(0028,0200)" -> 32736
+"BurnedInAnnotation" -> "NO"
+"(0028,0303)" -> "MODIFIED"
+"WindowCenter" -> {121, 121}
+"WindowWidth" -> {344, 344}
+"(0029,0011)" -> "SIEMENS CM VA0  CMS"
+"(0051,0010)" -> "SIEMENS CM VA0  CMS"
+"(0073,0010)" -> "STENTOR"

@@ -58,7 +58,6 @@ n.patients <- length(TCGA_patients)
 setwd("../")
 
 # Set up desired number of rotations
-#rotstep = 72
 theta = seq(from= -pi,to=pi,by=2*pi/rotstep)
 d1 = cos(theta);d2=sin(theta)
 d= rbind(d1,d2)

@@ -1,0 +1,112 @@
+"MetaElementGroupLength" -> 196
+"FileMetaInformationVersion" -> {0, 1}
+"MediaStorageSOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"MediaStorageSOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 5826, 4001, 634374060502171776918655173268}
+"TransferSyntaxUID" -> {1, 2, 840, 10008, 1, 2, 1}
+"ImplementationClassUID" -> {1, 2, 40, 0, 13, 1, 1, 1}
+"ImplementationVersionName" -> "dcm4che-1.4.31"
+"SpecificCharacterSet" -> "ISO_IR 100"
+"ImageType" -> {"ORIGINAL", "PRIMARY", "M", "ND"}
+"SOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"SOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 5826, 4001, 634374060502171776918655173268}
+"StudyDate" -> {2002, 9, 25}
+"SeriesDate" -> {2002, 9, 25}
+"AcquisitionDate" -> {2002, 9, 25}
+"ContentDate" -> {2002, 9, 25}
+"StudyTime" -> {18, 10, 0}
+"SeriesTime" -> {18, 30, 18.703}
+"AcquisitionTime" -> {18, 21, 5.*^-6}
+"ContentTime" -> {18, 30, 21.046}
+"AccessionNumber" -> "2202529332546287"
+"Modality" -> "MR"
+"Manufacturer" -> "SIEMENS"
+"StudyDescription" -> "NR MRI BRAIN WITH"
+"ProcedureCodeSequence" -> {"CodeValue" -> "MR003", "CodingSchemeDesignator" -> "LOCAL", "CodeMeaning" -> "NR MRI BRAIN W/WO"}
+"SeriesDescription" -> "MP RAGE AXIAL"
+"ManufacturerModel" -> "Symphony"
+"(0009,0010)" -> "SECTRA_Ident_01"
+"PatientName" -> "TCGA-19-2620"
+"PatientID" -> "TCGA-19-2620"
+"PatientSex" -> "M"
+"PatientAge" -> {70, 0, 0}
+"PatientWeight" -> 84.3681915522
+"(0012,0062)" -> "YES"
+"(0012,0063)" -> "Per DICOM PS 3.15 AnnexE. Details in 0012,0064"
+"(0012,0064)" -> {{"CodeValue" -> "113100", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Basic Application Confidentiality Profile"}, {"CodeValue" -> "113101", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Clean Pixel Data Option"}, {"CodeValue" -> "113103", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Clean Graphics Option"}, {"CodeValue" -> "113105", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Clean Descriptors Option"}, {"CodeValue" -> "113107", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Longitudinal With Modified Dates Option"}, {"CodeValue" -> "113108", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Patient Characteristics Option"}, {"CodeValue" -> "113109", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Device Identity Option"}, {"CodeValue" -> "113111", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Safe Private Option"}}
+"(0013,0010)" -> "CTP"
+"(0013,1010)" -> "TCGA-GBM"
+"(0013,1013)" -> "58264001"
+"ContrastBolusAgent" -> "POST CONTRAST"
+"BodyPartExamined" -> "BRAIN"
+"ScanningSequence" -> {"IR", "GR"}
+"SequenceVariant" -> {"SP", "MP"}
+"ScanOptions" -> "IR"
+"MRAcquisitionType" -> "3D"
+"SequenceName" -> "*tfl3d1_ns"
+"AngioFlag" -> "N"
+"SliceThickness" -> 1
+"SlicesSpacing" -> 1
+"RepetitionTime" -> 2160
+"EchoTime" -> 3.45
+"InversionTime" -> 1100
+"AveragesCount" -> 1
+"ImagingFrequency" -> 63.50101
+"ImagedNucleus" -> "1H"
+"EchoNumbers" -> 0
+"MagneticFieldStrength" -> 1.5
+"PhaseEncodingSteps" -> 256
+"EchoTrainLength" -> 1
+"PercentSampling" -> 100
+"PercentPhaseFieldOfView" -> 100
+"PixelBandwidth" -> 150
+"DeviceSerialNumber" -> "23210"
+"SoftwareVersions" -> "syngo MR A30 4VA30A"
+"Protocol" -> "MP RAGE AXIAL"
+"ContrastBolusVolume" -> 18
+"LastCalibrationDate" -> {2002, 7, 29}
+"LastCalibrationTime" -> {12, 49, 45.}
+"TransmittingCoil" -> "Body"
+"AcquisitionMatrix" -> {0, 256, 256, 0}
+"PhaseEncodingDirection" -> "ROW"
+"FlipAngle" -> 15
+"VariableFlipAngleFlag" -> "N"
+"SAR" -> 0.05087757483125
+"DBDT" -> 0
+"PatientPosition" -> "HFS"
+"(0019,0010)" -> "SIEMENS MR HEADER"
+"(0019,100B)" -> 552905
+"StudyInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 5826, 4001, 375077793921501732067329773703}
+"SeriesInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 5826, 4001, 151300554674875668688123093257}
+"SeriesNumber" -> 2
+"AcquisitionNumber" -> 1
+"InstanceNumber" -> 1
+"ImagePosition" -> {-113.76271155122, -161.89830395934, 127.36440658569}
+"ImageOrientation" -> {1, -2.0510349*^-10, 0, 2.051034897*^-10, 1, 0}
+"ReferenceFrameUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 5826, 4001, 300626169579387439623512978735}
+"SliceLocation" -> 127.36440658569
+"SamplesPerPixel" -> 1
+"PhotometricInterpretation" -> "MONOCHROME2"
+"PlanarConfiguration" -> 0
+"Rows" -> 256
+"Columns" -> 256
+"PixelSpacing" -> {1, 1}
+"AllocatedBits" -> 16
+"StoredBits" -> 12
+"HighBit" -> 11
+"PixelRepresentation" -> 0
+"MinPixelValue" -> 0
+"MaxPixelValue" -> 184
+"BurnedInAnnotation" -> "NO"
+"(0028,0303)" -> "MODIFIED"
+"WindowCenter" -> 111
+"WindowWidth" -> 275
+"WindowGeometryExplanation" -> "Algo1"
+"(0029,0010)" -> "SIEMENS CSA HEADER"
+"(0029,0011)" -> "SIEMENS MEDCOM HEADER2"
+"RequestedProcedureDescription" -> "NR MRI BRAIN W/WO"
+"RequestedProcedureCodeSequence" -> {"CodeValue" -> "MR003", "CodingSchemeDesignator" -> "LOCAL", "CodeMeaning" -> "NR MRI BRAIN W/WO"}
+"PerformedProcedureStartDate" -> {2002, 9, 25}
+"PerformedProcedureStartTime" -> {18, 10, 0.218}
+"PerformedProcedureDescription" -> "NR MRI BRAIN W/WO"
+"PerformedActionItemSequence" -> {}
+"(0051,0010)" -> "SIEMENS MR HEADER"

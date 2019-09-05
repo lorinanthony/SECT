@@ -1,0 +1,291 @@
+"MetaElementGroupLength" -> 196
+"FileMetaInformationVersion" -> {0, 1}
+"MediaStorageSOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"MediaStorageSOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 133553656510710702270588391632}
+"TransferSyntaxUID" -> {1, 2, 840, 10008, 1, 2, 1}
+"ImplementationClassUID" -> {1, 2, 40, 0, 13, 1, 1, 1}
+"ImplementationVersionName" -> "dcm4che-1.4.35"
+"SpecificCharacterSet" -> "ISO_IR 100"
+"ImageType" -> {"ORIGINAL", "PRIMARY", "OTHER"}
+"SOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"SOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 133553656510710702270588391632}
+"StudyDate" -> {2007, 6, 2}
+"SeriesDate" -> {2007, 6, 2}
+"AcquisitionDate" -> {2007, 6, 2}
+"ContentDate" -> {2007, 6, 2}
+"StudyTime" -> {0, 12, 27}
+"SeriesTime" -> {1, 11, 3}
+"AcquisitionTime" -> {1, 11, 3}
+"ContentTime" -> {1, 11, 3}
+"AccessionNumber" -> "2781105342195356"
+"Modality" -> "MR"
+"Manufacturer" -> "GE MEDICAL SYSTEMS"
+"StudyDescription" -> "MRI BRAIN W/WO CONTRAS"
+"ProcedureCodeSequence" -> {}
+"SeriesDescription" -> "+AxT1-thin for surgery"
+"ManufacturerModel" -> "GENESIS_SIGNA"
+"ReferencedStudySequence" -> {"ReferencedSOPClassUID" -> {1, 2, 840, 10008, 3, 1, 2, 3, 1}, "ReferencedSOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 308657922884262137750855956361}}
+"ReferencedStudyComponentSequence" -> {"ReferencedSOPClassUID" -> {1, 2, 840, 10008, 3, 1, 2, 3, 3}, "ReferencedSOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 230501119608400600340122006407}}
+"(0009,0010)" -> "GEMS_IDEN_01"
+"(0009,1002)" -> "BAY2"
+"(0009,1004)" -> "SIGNA"
+"(0009,1030)" -> "13916BAY2"
+"PatientName" -> "TCGA-06-1806"
+"PatientID" -> "TCGA-06-1806"
+"PatientSex" -> "M"
+"PatientAge" -> {47, 0, 0}
+"PatientWeight" -> 99.79
+"(0011,0010)" -> "GEMS_PATI_01"
+"(0012,0062)" -> "YES"
+"(0012,0063)" -> "Per DICOM PS 3.15 AnnexE. Details in 0012,0064"
+"(0012,0064)" -> {{"CodeValue" -> "113100", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Basic Application Confidentiality Profile"}, {"CodeValue" -> "113101", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Clean Pixel Data Option"}, {"CodeValue" -> "113105", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Clean Descriptors Option"}, {"CodeValue" -> "113107", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Longitudinal With Modified Dates Option"}, {"CodeValue" -> "113108", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Patient Characteristics Option"}, {"CodeValue" -> "113109", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Device Identity Option"}, {"CodeValue" -> "113111", "CodingSchemeDesignator" -> "DCM", "CodeMeaning" -> "Retain Safe Private Option"}}
+"(0013,0010)" -> "CTP"
+"(0013,1010)" -> "TCGA-GBM"
+"(0013,1013)" -> "45914001"
+"ContrastBolusAgent" -> "25    MAGNEVIST"
+"BodyPartExamined" -> "BRAIN"
+"ScanningSequence" -> "SE"
+"SequenceVariant" -> "NONE"
+"ScanOptions" -> {"SAT_GEMS", "VB_GEMS", "SP"}
+"MRAcquisitionType" -> "2D"
+"AngioFlag" -> "N"
+"SliceThickness" -> 2.5
+"RepetitionTime" -> 500
+"EchoTime" -> 13
+"AveragesCount" -> 2
+"ImagingFrequency" -> 638577550
+"ImagedNucleus" -> "H1"
+"EchoNumbers" -> 1
+"MagneticFieldStrength" -> 15000
+"SlicesSpacing" -> 2.5
+"EchoTrainLength" -> 0
+"PercentSampling" -> 100
+"PercentPhaseFieldOfView" -> 100
+"PixelBandwidth" -> 122.109375
+"DeviceSerialNumber" -> "000000000AY2OC0"
+"SoftwareVersions" -> "09"
+"Protocol" -> "TVP SURGICAL/"
+"ContrastBolusRoute" -> "IV"
+"SpatialResolution" -> 1.25
+"HeartRate" -> 0
+"CardiacNumber" -> 0
+"TriggerWindow" -> 0
+"ReconstructionDiameter" -> 240
+"ReceivingCoil" -> "HEAD"
+"TransmittingCoil" -> "HEAD"
+"AcquisitionMatrix" -> {0, 256, 192, 0}
+"PhaseEncodingDirection" -> "ROW"
+"FlipAngle" -> 90
+"VariableFlipAngleFlag" -> "N"
+"SAR" -> 0.039796
+"PatientPosition" -> "HFS"
+"(0019,0010)" -> "GEMS_ACQU_01"
+"(0019,100F)" -> 286.3999939
+"(0019,1011)" -> 2
+"(0019,1012)" -> 0
+"(0019,1017)" -> 2
+"(0019,1018)" -> "I"
+"(0019,1019)" -> -78.213417
+"(0019,101A)" -> "S"
+"(0019,101B)" -> 94.286583
+"(0019,101E)" -> 240
+"(0019,105A)" -> 9.80249984*^8
+"(0019,107D)" -> 0
+"(0019,107E)" -> 1
+"(0019,107F)" -> 0
+"(0019,1081)" -> 1
+"(0019,1084)" -> 2.624682426
+"(0019,1085)" -> 1
+"(0019,1087)" -> 0
+"(0019,1088)" -> 0
+"(0019,108A)" -> 11
+"(0019,108B)" -> 15
+"(0019,108D)" -> 0
+"(0019,108F)" -> 0
+"(0019,1090)" -> 0
+"(0019,1091)" -> 0
+"(0019,1092)" -> 0
+"(0019,1093)" -> 638577550
+"(0019,1094)" -> 118
+"(0019,1095)" -> 11
+"(0019,1096)" -> 15
+"(0019,1097)" -> 0
+"(0019,1098)" -> 2
+"(0019,109B)" -> 1
+"(0019,109C)" -> "memp"
+"(0019,109E)" -> "MEMP"
+"(0019,109F)" -> 1
+"(0019,10A0)" -> 0
+"(0019,10A1)" -> 0
+"(0019,10A2)" -> 28672
+"(0019,10A3)" -> 0
+"(0019,10A4)" -> 0
+"(0019,10A7)" -> 0
+"(0019,10A8)" -> 0
+"(0019,10A9)" -> 0
+"(0019,10AA)" -> 0
+"(0019,10AB)" -> 0
+"(0019,10AC)" -> 0
+"(0019,10AD)" -> 0
+"(0019,10AE)" -> 0
+"(0019,10AF)" -> 0
+"(0019,10B0)" -> 0
+"(0019,10B1)" -> 0
+"(0019,10B2)" -> 1200
+"(0019,10B3)" -> 0
+"(0019,10B4)" -> 0
+"(0019,10B5)" -> 0
+"(0019,10B6)" -> 0
+"(0019,10B7)" -> 0
+"(0019,10B8)" -> 0
+"(0019,10B9)" -> 0
+"(0019,10BA)" -> 0
+"(0019,10BB)" -> 0
+"(0019,10BC)" -> 0
+"(0019,10BD)" -> 0
+"(0019,10BE)" -> 0
+"(0019,10C0)" -> 2
+"(0019,10C1)" -> 0
+"(0019,10C2)" -> 9990
+"(0019,10C3)" -> 9990
+"(0019,10C4)" -> 9990
+"(0019,10C5)" -> 9990
+"(0019,10C6)" -> 9990
+"(0019,10C7)" -> 9990
+"(0019,10C8)" -> 0
+"(0019,10C9)" -> 0
+"(0019,10CA)" -> 0
+"(0019,10CB)" -> 0
+"(0019,10CC)" -> 0
+"(0019,10CD)" -> 0
+"(0019,10CE)" -> 2
+"(0019,10CF)" -> 0
+"(0019,10D2)" -> 0
+"(0019,10D5)" -> 0
+"(0019,10D7)" -> 0
+"(0019,10D8)" -> 0
+"(0019,10D9)" -> 0
+"(0019,10DF)" -> 0
+"(0019,10E0)" -> 0
+"(0019,10E2)" -> 0
+"(0019,10F2)" -> 0
+"(0019,10F9)" -> 118
+"StudyInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 308657922884262137750855956361}
+"SeriesInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 148228884165602608638344368718}
+"SeriesNumber" -> 8
+"AcquisitionNumber" -> 0
+"InstanceNumber" -> 1
+"ImagePosition" -> {-116.4878082, -115.31707, -78.2134171}
+"ImageOrientation" -> {1, 0, 0, 0, 1, 0}
+"ReferenceFrameUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 367160609913170629908682243520}
+"TemporalResolution" -> 0
+"SliceLocation" -> -78.2134170532
+"(0021,0010)" -> "GEMS_RELA_01"
+"(0021,1003)" -> 0
+"(0021,1035)" -> 1
+"(0021,1036)" -> 5
+"(0021,1037)" -> 16
+"(0021,104F)" -> 70
+"(0021,1050)" -> 0
+"(0021,1051)" -> 0.
+"(0021,1052)" -> 0.
+"(0021,1053)" -> 0.
+"(0021,1056)" -> 0
+"(0021,1057)" -> 0
+"(0021,1058)" -> 0
+"(0021,1059)" -> 0
+"(0021,105A)" -> 0
+"(0021,105B)" -> 180
+"(0021,105C)" -> 45
+"(0021,105D)" -> 50000
+"(0021,105E)" -> 0
+"(0021,105F)" -> 0
+"(0021,1081)" -> 0
+"(0021,1082)" -> 0
+"(0021,1083)" -> 0
+"(0021,1084)" -> 0
+"(0023,0010)" -> "GEMS_STDY_01"
+"(0025,0010)" -> "GEMS_SERS_01"
+"(0025,1006)" -> 0
+"(0025,1007)" -> 70
+"(0025,1010)" -> 0
+"(0025,1011)" -> 5
+"(0027,0010)" -> "GEMS_IMAG_01"
+"(0027,1010)" -> 0
+"(0027,1031)" -> 1
+"(0027,1032)" -> 0
+"(0027,1033)" -> 1056
+"(0027,1035)" -> 2
+"(0027,1036)" -> 2
+"(0027,1040)" -> "I"
+"(0027,1041)" -> -78.21341705322266
+"(0027,1042)" -> -3.512195110321045
+"(0027,1043)" -> -4.682926654815674
+"(0027,1044)" -> -78.21341705322266
+"(0027,1045)" -> 0.
+"(0027,1046)" -> 0.
+"(0027,1047)" -> 1.
+"(0027,1048)" -> -123.51219177246094
+"(0027,1049)" -> 115.31707000732422
+"(0027,104A)" -> -78.21341705322266
+"(0027,104B)" -> -123.51219177246094
+"(0027,104C)" -> -124.68292999267578
+"(0027,104D)" -> -78.21341705322266
+"(0027,1060)" -> 256.
+"(0027,1061)" -> 192.
+"(0027,1062)" -> 2.
+"SamplesPerPixel" -> 1
+"PhotometricInterpretation" -> "MONOCHROME2"
+"Rows" -> 256
+"Columns" -> 256
+"PixelSpacing" -> {0.9375, 0.9375}
+"AllocatedBits" -> 16
+"StoredBits" -> 16
+"HighBit" -> 15
+"PixelRepresentation" -> 1
+"PixelPaddingValue" -> 0
+"(0028,0303)" -> "MODIFIED"
+"WindowCenter" -> 799
+"WindowWidth" -> 1599
+"(0029,0010)" -> "GEMS_IMPS_01"
+"(0029,1015)" -> 0
+"(0029,1016)" -> 0
+"(0029,1017)" -> 0
+"(0029,1018)" -> 0
+"(0029,1026)" -> 2
+"(0029,1034)" -> 16384
+"(0029,1035)" -> 0
+"PerformedProcedureDescription" -> "MRI BRAIN W/WO CONTRAST"
+"(0043,0010)" -> "GEMS_PARM_01"
+"(0043,1001)" -> 1
+"(0043,1002)" -> 0
+"(0043,1003)" -> 0
+"(0043,1004)" -> 0
+"(0043,1006)" -> 0
+"(0043,1007)" -> 0
+"(0043,1008)" -> 0
+"(0043,1009)" -> 0
+"(0043,100A)" -> 1
+"(0043,100B)" -> 0
+"(0043,100C)" -> 66
+"(0043,100D)" -> 0
+"(0043,100E)" -> 0
+"(0043,100F)" -> 1.049872994
+"(0043,1010)" -> 0
+"(0043,101C)" -> 0
+"(0043,101D)" -> 0
+"(0043,102C)" -> 0
+"(0043,102F)" -> 0
+"(0043,1030)" -> 0
+"(0043,1032)" -> 2
+"(0043,1033)" -> 0.
+"(0043,1034)" -> 1200
+"(0043,1035)" -> 0
+"(0043,1036)" -> 0
+"(0043,1037)" -> 0
+"(0043,1038)" -> {0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.}
+"(0043,1039)" -> {0, 0, 0, 7}
+"(0043,1060)" -> {0, 0, 0, 10, 0, 0, 0, 0}
+"(0043,1061)" -> "1.3.6.1.4.1.14519.5.2.1.4591.4001.263752040982491937971963017544"
+"(0043,106F)" -> {0, 0, 0}
+"(0073,0010)" -> "STENTOR"

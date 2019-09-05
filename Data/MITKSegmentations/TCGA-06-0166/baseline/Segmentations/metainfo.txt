@@ -1,0 +1,71 @@
+"MetaElementGroupLength" -> 194
+"FileMetaInformationVersion" -> {0, 1}
+"MediaStorageSOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"MediaStorageSOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 166804249814218452169527820026}
+"TransferSyntaxUID" -> {1, 2, 840, 10008, 1, 2, 1}
+"ImplementationClassUID" -> {1, 2, 40, 0, 13, 1, 1}
+"ImplementationVersionName" -> "dcm4che-1.4.27"
+"ImageType" -> {"ORIGINAL", "PRIMARY", "OTHER"}
+"SOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"SOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 166804249814218452169527820026}
+"StudyDate" -> {1999, 6, 1}
+"SeriesDate" -> {1999, 6, 1}
+"ContentDate" -> {2006, 8, 10}
+"SeriesTime" -> {14, 18, 0}
+"ContentTime" -> {8, 56, 18}
+"AccessionNumber" -> "1468235712970550"
+"Modality" -> "MR"
+"StationName" -> "BAY"
+"SeriesDescription" -> "AXIAL T1 POST GD"
+"PatientID" -> "TCGA-06-0166"
+"PatientSex" -> "M"
+"(0012,0062)" -> "YES"
+"(0012,0063)" -> "DCM:113100/113105/113107/113108/113109/113111"
+"(0013,0010)" -> "CTP"
+"(0013,1010)" -> "TCGA-GBM"
+"(0013,1013)" -> "45914001"
+"ContrastBolusAgent" -> "CC    MAGNEVIST"
+"BodyPartExamined" -> "BRAIN"
+"ScanningSequence" -> "memp"
+"SequenceVariant" -> "NONE"
+"SliceThickness" -> 3.
+"RepetitionTime" -> 500.
+"EchoTime" -> 14.
+"InversionTime" -> 0.
+"AveragesCount" -> 4.
+"SlicesSpacing" -> 3.
+"EchoTrainLength" -> 0
+"DeviceSerialNumber" -> "0000000313876mri"
+"SoftwareVersions" -> "07 of 07"
+"ReconstructionDiameter" -> 240.
+"ReceivingCoil" -> "HEAD"
+"TransmittingCoil" -> "HEAD"
+"AcquisitionMatrix" -> {0, 0, 0, 0}
+"FlipAngle" -> 90
+"ReferencePixelX0" -> 0
+"ReferencePixelY0" -> 0
+"StudyInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 312918919617224104082765445485}
+"SeriesInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 337430353322187787108565325391}
+"SeriesNumber" -> 7
+"InstanceNumber" -> 1
+"ImagePosition" -> {-120., 120., -90.}
+"ImageOrientation" -> {1., 0., 0., 0., 1., 0.}
+"ReferenceFrameUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 135975680658660780954617332932}
+"PositionReferenceIndicator" -> "NA"
+"SliceLocation" -> -90.
+"SamplesPerPixel" -> 1
+"PhotometricInterpretation" -> "MONOCHROME2"
+"Rows" -> 256
+"Columns" -> 256
+"PixelSpacing" -> {0.938, 0.938}
+"AllocatedBits" -> 16
+"StoredBits" -> 16
+"HighBit" -> 15
+"PixelRepresentation" -> 1
+"(0028,0303)" -> "MODIFIED"
+"WindowCenter" -> 684.5
+"WindowWidth" -> 1369.
+"RescaleIntercept" -> 0
+"RescaleSlope" -> 1
+"VerifyingObserver" -> "Removed by CTP"
+"PersonName" -> "Removed by CTP"

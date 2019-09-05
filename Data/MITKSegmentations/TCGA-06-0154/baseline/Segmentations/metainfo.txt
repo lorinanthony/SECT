@@ -1,0 +1,71 @@
+"MetaElementGroupLength" -> 194
+"FileMetaInformationVersion" -> {0, 1}
+"MediaStorageSOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"MediaStorageSOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 452216616247624599987303372614}
+"TransferSyntaxUID" -> {1, 2, 840, 10008, 1, 2, 1}
+"ImplementationClassUID" -> {1, 2, 40, 0, 13, 1, 1}
+"ImplementationVersionName" -> "dcm4che-1.4.27"
+"ImageType" -> {"ORIGINAL", "PRIMARY", "OTHER"}
+"SOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"SOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 452216616247624599987303372614}
+"StudyDate" -> {1996, 4, 5}
+"SeriesDate" -> {1996, 4, 5}
+"ContentDate" -> {2006, 6, 1}
+"SeriesTime" -> {3, 37, 20}
+"ContentTime" -> {12, 8, 35}
+"AccessionNumber" -> "3238944463591688"
+"Modality" -> "MR"
+"StationName" -> "BAY"
+"SeriesDescription" -> "AXIAL T1 PRE/POST GD"
+"PatientID" -> "TCGA-06-0154"
+"PatientSex" -> "M"
+"(0012,0062)" -> "YES"
+"(0012,0063)" -> "DCM:113100/113105/113107/113108/113109/113111"
+"(0013,0010)" -> "CTP"
+"(0013,1010)" -> "TCGA-GBM"
+"(0013,1013)" -> "45914001"
+"ContrastBolusAgent" -> "gd    gd"
+"BodyPartExamined" -> "BRAIN"
+"ScanningSequence" -> "memp"
+"SequenceVariant" -> "NONE"
+"SliceThickness" -> 3.
+"RepetitionTime" -> 500.
+"EchoTime" -> 8.
+"InversionTime" -> 0.
+"AveragesCount" -> 0.
+"SlicesSpacing" -> 3.
+"EchoTrainLength" -> 0
+"DeviceSerialNumber" -> "0000000313876mr2"
+"SoftwareVersions" -> "07 of 07"
+"ReconstructionDiameter" -> 240.
+"ReceivingCoil" -> "HEAD"
+"TransmittingCoil" -> "HEAD"
+"AcquisitionMatrix" -> {0, 0, 0, 0}
+"FlipAngle" -> 90
+"ReferencePixelX0" -> 0
+"ReferencePixelY0" -> 0
+"StudyInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 163246911709429038918826429573}
+"SeriesInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 145285442414651713189537273383}
+"SeriesNumber" -> 8
+"InstanceNumber" -> 1
+"ImagePosition" -> {-120., 127., -90.}
+"ImageOrientation" -> {1., 0., 0., 0., 1., 0.}
+"ReferenceFrameUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 315223068963213322234613271594}
+"PositionReferenceIndicator" -> "NA"
+"SliceLocation" -> -90.
+"SamplesPerPixel" -> 1
+"PhotometricInterpretation" -> "MONOCHROME2"
+"Rows" -> 256
+"Columns" -> 256
+"PixelSpacing" -> {0.938, 0.938}
+"AllocatedBits" -> 16
+"StoredBits" -> 16
+"HighBit" -> 15
+"PixelRepresentation" -> 1
+"(0028,0303)" -> "MODIFIED"
+"WindowCenter" -> 700.5
+"WindowWidth" -> 1401.
+"RescaleIntercept" -> 0
+"RescaleSlope" -> 1
+"VerifyingObserver" -> "Removed by CTP"
+"PersonName" -> "Removed by CTP"

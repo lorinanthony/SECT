@@ -1,0 +1,95 @@
+"MetaElementGroupLength" -> 194
+"FileMetaInformationVersion" -> {0, 1}
+"MediaStorageSOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"MediaStorageSOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 119391317554713688633079619040}
+"TransferSyntaxUID" -> {1, 2, 840, 10008, 1, 2, 1}
+"ImplementationClassUID" -> {1, 2, 40, 0, 13, 1, 1}
+"ImplementationVersionName" -> "dcm4che-1.4.27"
+"SpecificCharacterSet" -> "ISO_IR 100"
+"ImageType" -> {"ORIGINAL", "PRIMARY", "OTHER"}
+"SOPClassUID" -> {1, 2, 840, 10008, 5, 1, 4, 1, 1, 4}
+"SOPInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 119391317554713688633079619040}
+"StudyDate" -> {2008, 1, 11}
+"SeriesDate" -> {2008, 1, 12}
+"AcquisitionDate" -> {2008, 1, 12}
+"ContentDate" -> {2008, 11, 14}
+"SeriesTime" -> {1, 8, 57}
+"AcquisitionTime" -> {1, 8, 57}
+"ContentTime" -> {10, 38, 7}
+"AccessionNumber" -> "1181606056077258"
+"Modality" -> "MR"
+"StationName" -> "MR01MROW"
+"SeriesDescription" -> "Ax T1 2.5mm for surgery"
+"PatientID" -> "TCGA-06-5408"
+"PatientSex" -> "F"
+"(0012,0062)" -> "YES"
+"(0012,0063)" -> "DCM:113100/113105/113107/113108/113109/113111"
+"(0013,0010)" -> "CTP"
+"(0013,1010)" -> "TCGA-GBM"
+"(0013,1013)" -> "45914001"
+"ContrastBolusAgent" -> "Yes   MAG"
+"BodyPartExamined" -> "BRAIN"
+"ScanningSequence" -> "SE"
+"SequenceVariant" -> "NONE"
+"ScanOptions" -> {"SAT_GEMS", "SP"}
+"MRAcquisitionType" -> "2D"
+"AngioFlag" -> "N"
+"SliceThickness" -> 2.5
+"RepetitionTime" -> 500
+"EchoTime" -> 13
+"InversionTime" -> 0
+"AveragesCount" -> 2
+"ImagingFrequency" -> 63.885838
+"ImagedNucleus" -> "1H"
+"EchoNumbers" -> 1
+"MagneticFieldStrength" -> 1.5
+"SlicesSpacing" -> 2.5
+"EchoTrainLength" -> 1
+"PercentSampling" -> 100
+"PercentPhaseFieldOfView" -> 100
+"PixelBandwidth" -> 122.109
+"DeviceSerialNumber" -> "0000000313916mr1"
+"SoftwareVersions" -> {"15", "LX", "MR Software release:15.0_M4_0910.a"}
+"Protocol" -> "TVP Surgical/8"
+"ContrastBolusRoute" -> "IV"
+"HeartRate" -> 0
+"CardiacNumber" -> 0
+"TriggerWindow" -> 0
+"ReconstructionDiameter" -> 240
+"ReceivingCoil" -> "HEAD"
+"AcquisitionMatrix" -> {0, 256, 160, 0}
+"PhaseEncodingDirection" -> "ROW"
+"FlipAngle" -> 90
+"VariableFlipAngleFlag" -> "N"
+"SAR" -> 0.0512679
+"PatientPosition" -> "HFS"
+"StudyInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 694644982891228681410637134135}
+"SeriesInstanceUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 255056887939741615994527174538}
+"SeriesNumber" -> 10
+"AcquisitionNumber" -> 1
+"InstanceNumber" -> 1
+"ImagePosition" -> {-129.043, -119.534, -76.1109}
+"ImageOrientation" -> {1, 0, 0, 0, 1, 0}
+"ReferenceFrameUID" -> {1, 3, 6, 1, 4, 1, 14519, 5, 2, 1, 4591, 4001, 285574006298795866117104908063}
+"ImagesInAcquisition" -> 68
+"SliceLocation" -> -76.11093903
+"(0020,9056)" -> "1"
+"(0020,9057)" -> 1
+"SamplesPerPixel" -> 1
+"PhotometricInterpretation" -> "MONOCHROME2"
+"Rows" -> 256
+"Columns" -> 256
+"PixelSpacing" -> {0.9375, 0.9375}
+"AllocatedBits" -> 16
+"StoredBits" -> 16
+"HighBit" -> 15
+"PixelRepresentation" -> 1
+"MinPixelValue" -> 0
+"MaxPixelValue" -> 1129
+"(0028,0303)" -> "MODIFIED"
+"WindowCenter" -> 564.5
+"WindowWidth" -> 1129.
+"RescaleIntercept" -> 0
+"RescaleSlope" -> 1
+"VerifyingObserver" -> "Removed by CTP"
+"PersonName" -> "Removed by CTP"
