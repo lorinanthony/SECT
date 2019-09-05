@@ -1,7 +1,6 @@
 ### Load in the R libraries ###
 library(BGLR)
 library(doParallel)
-library(gdata)
 library(Rcpp)
 library(RcppArmadillo)
 library(RcppParallel)
