@@ -54,7 +54,7 @@ A tutorial for running the smooth Euler chatacteristic transform is given under 
 This will create a series of tables similiar to Table 1 in the main text. Note that the current version of the SECT code takes images/shapes that are formatted as png files.
 
 ### Relevant Citations
-L. Crawford, A. Monod, A.X. Chen, S. Mukherjee, and R. Rabadán. Functional Data Analysis using a Topological Summary Statistic: the Smooth Euler Characteristic Transform. arXiv. 1611.06818.
+L. Crawford, A. Monod, A.X. Chen, S. Mukherjee, and R. Rabadán. Predicting clinical outcomes in glioblastoma: an application of topological and functional data analysis. *Journal of the American Statistical Association*. In Press.
 
 ### Questions and Feedback
 For questions or concerns with the SECT functions, please contact [Lorin Crawford](mailto:lorin_crawford@brown.edu) or [Anthea Monod](mailto:antheam@tauex.tau.ac.il).
